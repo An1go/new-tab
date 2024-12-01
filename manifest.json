@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Bing Rewards New Tab",
+    "version": "1.0",
+    "description": "Overrides the new tab page to show Bing Rewards.",
+    "permissions": [
+        "tabs"
+    ],
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    },
+    "action": {
+        "default_title": "Bing Rewards New Tab"
+    }
+}
